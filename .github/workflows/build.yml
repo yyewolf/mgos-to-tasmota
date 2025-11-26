@@ -2,6 +2,7 @@ name: Mongoose Shelly build
 on:
   push:
     branches: [ master ]
+
 jobs:
   release:
     name: Create a new release
